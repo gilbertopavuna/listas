@@ -1,4 +1,8 @@
-notas = [10, 9, 5, 8]
+notas = []
+for nota in range(4):
+    nota = float(input('Entre com suas notas: '))
+    notas.append(nota)
+
 tamanho = len(notas)
 soma = sum(notas)
 media = soma/tamanho
